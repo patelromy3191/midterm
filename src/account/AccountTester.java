@@ -25,6 +25,11 @@ public class AccountTester {
         sc.nextLine();
         String user=sc.nextLine();
         
+        if(bal < 50 )
+            {
+                System.err.println("Please keep balce greater than 50");
+                return;
+            }
         Account a=new Account(bal,user);
         ac[0]=a;
              

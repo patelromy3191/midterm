@@ -21,6 +21,7 @@ public class Account {
       */
         public Account(double initialBalance,String givenUser)
         {
+            
             balance=initialBalance;
             user=givenUser;
             //Note that the initial balance must be greater than 50.       
